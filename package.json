@@ -10,7 +10,7 @@
   "author": "Andrew Pierce",
   "repository": {
     "type": "git",
-    "url": "git://github.com/andrunix/search-form-button.git"
+    "url": "https://github.com/andrunix/search-form-button.git"
   },
   "license": "ISC",
   "babel": {
