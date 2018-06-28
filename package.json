@@ -1,0 +1,44 @@
+{
+  "name": "search-form-button",
+  "version": "1.0.0",
+  "description": "Simple UI button with a \u001b[H\u001b[C\u000e",
+  "main": "dist/search-form-button.min.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --hide-modules -p --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Pierce",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrunix/search-form-button.git"
+  },
+  "license": "ISC",
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "uglify": true,
+          "modules": false,
+          "targets": {
+            "browsers": [
+              "> 1%",
+              "last 2 versions",
+              "not ie <= 8"
+            ]
+          }
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "vue": "^2.4.4",
+    "vue-loader": "^13.7.2",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0"
+  }
+}
