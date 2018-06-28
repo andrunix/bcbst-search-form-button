@@ -1,7 +1,7 @@
 {
   "name": "search-form-button",
   "version": "1.0.0",
-  "description": "Simple UI button with a \u001b[H\u001b[C\u000e",
+  "description": "Simple UI button",
   "main": "dist/search-form-button.min.js",
   "contributors": [
     {
@@ -11,7 +11,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/andrunix/search-form-button.git"
+    "url": "git@github.com:andrunix/search-form-button.git"
   },
   "license": "MIT",
   "devDependencies": {
