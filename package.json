@@ -3,34 +3,17 @@
   "version": "1.0.0",
   "description": "Simple UI button with a \u001b[H\u001b[C\u000e",
   "main": "dist/search-form-button.min.js",
-  "scripts": {
-    "build": "./node_modules/.bin/webpack --hide-modules -p --progress",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andrew Pierce",
+  "contributors": [
+    {
+      "name": "Andrew Pierce",
+      "email": "andrunix@gmail.com"
+    }
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrunix/search-form-button.git"
+    "url": "git://github.com/andrunix/search-form-button.git"
   },
-  "license": "ISC",
-  "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "uglify": true,
-          "modules": false,
-          "targets": {
-            "browsers": [
-              "> 1%",
-              "last 2 versions",
-              "not ie <= 8"
-            ]
-          }
-        }
-      ]
-    ]
-  },
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
@@ -40,5 +23,11 @@
     "vue-loader": "^13.7.2",
     "vue-template-compiler": "^2.4.4",
     "webpack": "^3.6.0"
+  },
+  "dependencies": {
+  },
+  "scripts": {
+    "build": "./node_modules/.bin/webpack --hide-modules -p --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
