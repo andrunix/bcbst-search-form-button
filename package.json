@@ -1,8 +1,8 @@
 {
-  "name": "search-form-button",
+  "name": "bcbst-search-form-button",
   "version": "1.0.0",
   "description": "Simple UI button",
-  "main": "dist/search-form-button.min.js",
+  "main": "dist/bcbst-search-form-button.min.js",
   "contributors": [
     {
       "name": "Andrew Pierce",
@@ -11,12 +11,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:andrunix/search-form-button.git"
+    "url": "git@github.com:andrunix/bcbst-search-form-button.git"
   },
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^6.1.4",
     "babel-preset-env": "^1.7.0",
     "css-loader": "^0.28.11",
     "vue": "^2.4.4",

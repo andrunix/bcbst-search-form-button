@@ -15,7 +15,7 @@ module.exports = {
   entry: './src/SearchFormButton.vue',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'search-form-button.min.js',
+    filename: 'bcbst-search-form-button.min.js',
     library: 'SearchFormButton',
     libraryTarget: 'umd',
     umdNamedDefine: true
